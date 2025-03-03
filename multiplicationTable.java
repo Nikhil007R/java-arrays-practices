@@ -12,12 +12,12 @@ class multiplicationTable{
 		int num = sc.nextInt();
 		
 		// traversing and storing answer in array 
-		for(int i=1; i<=10; i++){
-			arr[i] = num*i;
+		for(int i=0; i<10; i++){
+			arr[i] = num*(i+1);
 		}
 		 
 		for(int i=0; i<10; i++){
-			System.out.println(num+" * "+i+1+" = " + arr[i]);
+			System.out.println(num+" * "+(i+1)+" = " + arr[i]);
 		}
         }
 }
